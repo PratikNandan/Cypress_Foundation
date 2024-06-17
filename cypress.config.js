@@ -10,7 +10,9 @@ module.exports = defineConfig({
     setupNodeEvents,
       //specPattern:'cypress/Integration/Testing/*.js' //  to run normal files
       //specPattern:'cypress/UAT/features/*.{js,feature}'  // to run feature files cucumber
-      specPattern:'cypress/Integration/**/*.js' //  to run normal files
+      //specPattern:'cypress/Integration/**/*.js' //  to run normal files
+      specPattern:'cypress/**/*.js' //  to run normal files
+
 
 
     
